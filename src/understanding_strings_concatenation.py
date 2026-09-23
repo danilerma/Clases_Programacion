@@ -33,7 +33,7 @@ print("Lenguajes: \n Python \n C \n JavaScript")
 
 # f-strings
 
-famous_person = "daniel lerma"
+famous_person = "daniel lerma".title()
 message = famous_person + " dijo una vez: python es amor"
 print(message)
 
