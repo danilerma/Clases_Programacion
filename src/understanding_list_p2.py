@@ -31,6 +31,29 @@ print(motorcycles_2)
 motorcycles_3 = ['honda', "mortalica", 'suzuki']
 print("\nLista Original")
 print(motorcycles_3)
-motorcycles_3.insert(0, "ducati")
+motorcycles_3.insert(3, "ducati")
 print("Lista despues del metodo insert")
 print(motorcycles_3)
+
+## Metodo .pop() Elimina el ultimo elemento de una lista pero nos permite utilizar el elemento despues de eliminarlo.4
+
+print("\n\tAqui aprendi a utilizar el metodo pop")
+motorcycles_4 = ['honda', 'suzuki', 'mortalica', 'hd']
+print(motorcycles_4)
+deleted_motorcycle = motorcycles_4.pop()
+print(f"Tu motocicleta borrada es: {deleted_motorcycle}")
+print(motorcycles_4)
+
+# Se puede utilizar para eliminar un elemento especifico.
+motorcycles_5 = ['honda', 'suzuki', 'mortalica', 'hd']
+motorcycles_5.pop(0)
+print(motorcycles_5) # Lista sin honda
+
+# Metodo .remove(), permite eliminar elementos por su valor.
+print("\n\tAqui aprendi a utilizar el metodo remove")
+motorcycles_6 = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles_6)
+motorcycles_6.remove("yamaha")
+print(motorcycles_6)
+
+
