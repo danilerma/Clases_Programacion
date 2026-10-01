@@ -57,3 +57,13 @@ motorcycles_6.remove("yamaha")
 print(motorcycles_6)
 
 
+# Ordenar listas
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+cars.sort() #Ordenar la lista de manera permanente
+# Argumento opcional de sort (reverse=True)
+print(cars)
+
+several_items = [["Daniel", "Arnoldo"], ['subaru', 'tsuru']]
+print(several_items[1][1])
